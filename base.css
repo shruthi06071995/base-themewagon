@@ -14,10 +14,28 @@
     padding: 0px 10px;
 }
 .piccol {
+    padding: 1000px 300px;
+    z-index: 2;
     background-color: rgb(75, 75, 197);
     border-radius: 500px;
     position: relative;
-    right: -800px;
-    top: -150px;
+    top: -100px;
 }
-
+.right {
+    position: absolute;
+    right: -100px;
+    top: -90px;
+    background-color: rgb(75, 75, 197);
+    border-radius: 500px;
+}
+.leftcontent-1 {
+    font-family: "Inter",sans-serif;
+    padding: 30px 15px;
+}
+.heading1 {
+    font: 50px "Outfit",sans-serif ;
+    margin: 0px 0px 24px;
+}
+.para1 {
+    font: 16px "Inter",sans-serif;
+}
